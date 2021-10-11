@@ -2,10 +2,10 @@
 
 
 @font-face {
-    font-family: 'Cafe24 Ssurround';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.1/Cafe24 Ssurround.woff') format('woff');
+    font-family: 'Cafe24Ssurround';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/Cafe24Ssurround.woff') format('woff');
     font-weight: normal;
-    font-style: normal;
+    font-style: normal;   
 }
 @font-face {
     font-family: 'Cafe24SsurroundAir';
@@ -41,7 +41,7 @@
 .main .head_fix h1, .sub .head_fix h1 {display:block; width:355px; height:60px; margin:0 auto 20px; z-index:1; background: url('../images/header.png') no-repeat 0 0; background-size:100%; text-indent:-9999px;}
 
 /* header */
-.head_fix .head_tit {position:relative; top:0; left:0; display:block; width:355px; height:32px; margin:0 auto;}
+.head_fix .head_tit {position:relative; top:0; left:0; display:block; height:32px; margin:0 auto;}
 .head_fix .head_tit > a::before {
 	content:"";
     position:absolute;
