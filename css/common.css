@@ -7,19 +7,34 @@
     font-weight: normal;
     font-style: normal;   
 }
+
 @font-face {
     font-family: 'Cafe24SsurroundAir';
     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/Cafe24SsurroundAir.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
+
 @font-face {
     font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../font/NotoSansKR-Regular.woff2') format('woff2'),
+    url('../font/NotoSansKR-Regular.woff') format('woff'),
+    url('../font/NotoSansKR-Regular.otf') format('opentype');
 }
-@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
 
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../font/roboto-v29-latin-regular.woff2') format('woff2'),
+    url('../font/roboto-v29-latin-regular.woff') format('woff'),
+    url('../font/roboto-v29-latin-regular.otf') format('opentype'),
+    url('../font/roboto-v29-latin-regular.ttf') format('truetype');
+}
 
-.wrap {position:relative; display:block; width:100%; height:100%; overflow:visible;}
+.wrap {display:block; width:100%; height:100%; overflow:visible;}
 
 /* common */
 .fs10 {font-size:10px;}
@@ -53,9 +68,9 @@
 	background: url("../images/header_ico.png") no-repeat;
     background-size:100%;
 }
-.head_fix .head_tit > a {padding-left:42px; font-family:'Cafe24 Ssurround'; font-style:normal; font-weight:bold; font-size:17px;line-height:32px; text-align:left; letter-spacing:-0.05em;}
+.head_fix .head_tit > a {padding-left:42px; font-family:'Cafe24 Ssurround'; font-style:normal; font-weight:700; font-size:17px;line-height:32px; text-align:left; letter-spacing:-0.05em;}
 
-.head_fix .head_txt {margin-top:15px; padding:20px; background-color:#FFF57F; border:2px solid rgba(0, 0, 0, 0.1); box-sizing:border-box; border-radius:13px; text-align:left; font-family:'Roboto'; font-style:normal; font-weight:bold; font-size:15px; line-height:18px; letter-spacing:-1px; color: #432F5A;}
+.head_fix .head_txt {margin-top:15px; padding:20px; background-color:#FFF57F; border:2px solid rgba(0, 0, 0, 0.1); box-sizing:border-box; border-radius:13px; text-align:left; font-family:'Roboto'; font-style:normal; font-weight:700; font-size:15px; line-height:18px; letter-spacing:-0.05em; color: #432F5A;}
 .head_fix .head_txt .ico_note {position:relative; margin-top:10px; padding:3px 0 3px 25px; font-family:'Roboto'; font-style:normal; font-weight:bold; font-size:12px; line-height:14px; letter-spacing:-0.05em; color:#A15366;}
 .head_fix .head_txt .ico_note::before {
     content:""; 
@@ -81,16 +96,53 @@
     border-radius:10px;
     box-sizing:border-box;
 }
-.ft_fix .ft_link {position:absolute; top:-25px; left:0; display:block; width:255px; height:75px; margin:0 calc(50% - 127px); background: url('../images/footer_link.png') no-repeat; background-size:100%;}
+.ft_fix .ft_link {position:absolute; top:-25px; left:0; display:block; width:282px; height:75px; margin:0 calc(50% - 141px); }
 .ft_fix .ft_link::after {
     content:''; 
     clear:both; 
     display:block;
 }
-.ft_fix .ft_link > li {float:left; margin-left:15px;}
+.ft_fix .ft_link > li {float:left; height:75px; margin-left:15px;}
 .ft_fix .ft_link > li:first-child {margin-left:0;}
-.ft_fix .ft_link > li a {display:block; height:75px;text-indent: -999px;}
-.ft_fix .ft_link .link01 {width:80px;}    
-.ft_fix .ft_link .link02 {width:66px;}    
+.ft_fix .ft_link > li > a {position:relative; display:block;}
+.ft_fix .ft_link > li > a > em {display:block; font-family:'Cafe24Ssurround'; font-style:normal; font-weight:bold; font-size:15px; line-height:18px; letter-spacing:-0.05em; color:#000000; text-align:center;}
+.ft_fix .ft_link .link01 {width:79px;}   
+.ft_fix .ft_link .link01 a::before {
+    content:"";
+    display:block; 
+    width:80px; 
+    height:51px; 
+    background: url('../images/ft_icon_01.png') no-repeat; 
+    background-size:75px auto;
+    margin:0 auto;
+} 
+.ft_fix .ft_link .link01.on a::before {
+    content:"";
+    display:block; 
+    width:51px; 
+    height:50px; 
+    background: url('../images/ft_icon_01_on.png') no-repeat; 
+    background-size:51px auto;
+    margin:0 auto;
+} 
+.ft_fix .ft_link .link02 {width:93px;}  
+.ft_fix .ft_link .link02 a::before {
+    content:"";
+    display:block; 
+    width:51px; 
+    height:50px; 
+    background: url('../images/ft_icon_02.png') no-repeat; 
+    background-size:51px auto;
+    margin:0 auto;
+}    
 .ft_fix .ft_link .link03 {width:79px;}
+.ft_fix .ft_link .link03 a::before {
+    content:"";
+    display:block; 
+    width:51px; 
+    height:50px; 
+    background: url('../images/ft_icon_03.png') no-repeat; 
+    background-size:51px auto;
+    margin:0 auto;
+}    
 

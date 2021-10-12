@@ -1,35 +1,89 @@
 
 
 /************************************ css 추가 ************************************/
-/* head motion */
-.motion_101 {position:absolute; top:-43px; right:121px; width:92px; height:89px; background: url('../images/motion_ico_101.png') no-repeat; animation: wheel 10s linear infinite; transform-origin:50% 50%; z-index:-1;}
-@keyframes wheel {
+/* motion */
+
+
+/* plan motion */
+.motion_201 {position:absolute; top:58px; right:103px; width:73px; height:75px; background: url('../images/motion_ico_201.png') no-repeat; animation: wheel201 10s linear infinite; transform-origin:50% 50%;}
+@keyframes wheel201 {
     100% {transform: rotate(360deg);}
 }
-.motion_102 {position:absolute; top:-39px; right:38px; width:84px; height:86px; background: url('../images/motion_ico_102.png') no-repeat; animation: wheel2 10s linear infinite; transform-origin:50% 50%;}
-@keyframes wheel2 {
+.motion_202 {position:absolute; top:83px; right:16px; width:92px; height:89px; background: url('../images/motion_ico_202.png') no-repeat; /* animation: wheel202 10s linear infinite; transform-origin:50% 50%; */ z-index:-1;}
+@keyframes wheel202 {
     100% {transform: rotate(360deg);}
 }
-.motion_201 {position:absolute; top:-37px; right:103px; width:73px; height:75px; background: url('../images/motion_ico_201.png') no-repeat; animation: wheel3 10s linear infinite; transform-origin:50% 50%;}
-@keyframes wheel3 {
-    100% {transform: rotate(360deg);}
-}
-.motion_202 {position:absolute; top:-15px; right:16px; width:92px; height:89px; background: url('../images/motion_ico_202.png') no-repeat; /* animation: wheel4 10s linear infinite; transform-origin:50% 50%; */ z-index:-1;}
-@keyframes wheel4 {
-    100% {transform: rotate(360deg);}
-}
-.motion_301 {position:absolute; top:-22px; right:15px; width:112px; height:59px; background: url('../images/motion_ico_301.png') no-repeat; animation: twinkle .5s ease-in-out infinite alternate;}
-@keyframes twinkle {
+
+/* concert motion */
+.motion_301 {position:absolute; top:72px; right:96px; width:41px; height:45px; background: url('../images/motion_ico_301.png') no-repeat; animation: twinkle301 .5s ease-in-out infinite alternate;}
+@keyframes twinkle301 {
     0% {opacity:0;}
     100% {opacity:100%;}
 }
-.motion_302 {position:absolute; top:-19px; right:52px; width:83px; height:80px; background: url('../images/motion_ico_302.png') no-repeat; animation: twinkle2 2s linear infinite;}
-@keyframes twinkle2 {    
+.motion_302 {position:absolute; top:95px; right:25px; width:39px; height:36px; background: url('../images/motion_ico_302.png') no-repeat; animation: twinkle302 .5s ease-in-out infinite alternate;}
+@keyframes twinkle302 {
+    0% {opacity:100%;}
+    100% {opacity:0;}
+}
+.motion_303 {position:absolute; top:121px; right:109px; width:36px; height:35px; background: url('../images/motion_ico_303.png') no-repeat; animation: twinkle303 2s linear infinite;}
+@keyframes twinkle303 {    
     0% {transform: scale(1);}
     25% {transform: scale(0.75);}
     40% {transform: scale(1);}
     60% {transform: scale(0.75);}
     100% {transform: scale(1);}
+}
+.motion_304 {position:absolute; top:76px; right:62px; width:33px; height:32px; background: url('../images/motion_ico_304.png') no-repeat; animation: twinkle304 2s linear infinite;}
+@keyframes twinkle304 {    
+    0% {transform: scale(0.75);}
+    25% {transform: scale(1);}
+    40% {transform: scale(0.75);}
+    60% {transform: scale(1);}
+    100% {transform: scale(0.75);}
+}
+
+/* share motion */
+.motion_501 {position:absolute; top:73px; right:62px; width:47px; height:44px; background: url('../images/motion_ico_501.png') no-repeat; animation: twinkle501 .5s ease-in-out infinite alternate;}
+@keyframes twinkle501 {
+    0% {opacity:50%;}
+    100% {opacity:100%;}
+}
+.motion_502 {position:absolute; top:90px; right:27px; width:43px; height:39px; background: url('../images/motion_ico_502.png') no-repeat; animation: twinkle502 .5s ease-in-out infinite alternate;}
+@keyframes twinkle502 {
+    0% {opacity:100%;}
+    100% {opacity:10%;}
+}
+
+/* visitors motion */
+.motion_601 {position:absolute; top:68px; right:110px; width:50px; height:51px; background: url('../images/motion_ico_601.png') no-repeat; animation: wave601 1s linear 0s infinite alternate;}
+@keyframes wave601 {   
+    0% {margin-top:10px;} 
+    50% {margin-top:0;}
+    100% {margin-top:10px;}
+}
+.motion_602 {position:absolute; top:80px; right:39px; width:36px; height:35px; background: url('../images/motion_ico_602.png') no-repeat; animation: heart602 2s linear infinite;}
+@keyframes heart602 {    
+    0% {transform: scale(1);}
+    25% {transform: scale(0.75);}
+    40% {transform: scale(1);}
+    60% {transform: scale(0.75);}
+    100% {transform: scale(1);}
+}
+
+/* info motion */
+.motion_701 {position:absolute; top:88px; right:103px; width:42px; height:41px; background: url('../images/motion_ico_701.png') no-repeat; animation: heart701 2s linear infinite;}
+@keyframes heart701 {  
+    0% {transform: scale(1);}
+    25% {transform: scale(0.75);}
+    40% {transform: scale(1);}
+    60% {transform: scale(0.75);}
+    100% {transform: scale(1);}
+}
+.motion_702 {position:absolute; top:75px; right:31px; width:41px; height:42px; background: url('../images/motion_ico_702.png') no-repeat; animation: wave702 1s linear 0s infinite alternate;}
+@keyframes wave702 {     
+    0% {margin-top:5px;} 
+    50% {margin-top:0;}
+    100% {margin-top:10px;}
 }
 
 /* concert */
@@ -148,13 +202,13 @@
 .cont_home .home_list li:nth-child(3n+2) {margin-left:40px; margin-right:40px;}
 
 /* home bg icon */
-.hm_00 {position:absolute; top:15px; left:64px; width:48px; height:48px; background: url('../images/hm_00.png') no-repeat 0 0; z-index:-1;}
+.hm_00 {position:absolute; top:15px; left:65px; width:48px; height:48px; background: url('../images/hm_00.png') no-repeat 0 0; z-index:-1;}
 .hm_01 {position:absolute; top:116px; left:0; width:32px; height:42px; background: url('../images/hm_01.png') no-repeat 0 0;}
 .hm_02 {position:absolute; top:85px; right:0; width:66px; height:80px; background: url('../images/hm_02.png') no-repeat 0 0; z-index:-1;}
 .hm_03 {position:absolute; top:203px; right:0; width:39px; height:51px; background: url('../images/hm_03.png') no-repeat 0 0;}
 .hm_04 {position:absolute; top:312px; left:0; width:70px; height:87px; background: url('../images/hm_04.png') no-repeat 0 0; z-index:-1;}
 .hm_05 {position:absolute; top:333px; left:128px; width:42px; height:41px; background: url('../images/hm_05.png') no-repeat 0 0; z-index:-1;}
-.hm_06 {position:absolute; top:381px; left:222px; width:54px; height:105px; background: url('../images/hm_06.png') no-repeat 0 0;}
+.hm_06 {position:absolute; top:381px; right:121px; width:54px; height:105px; background: url('../images/hm_06.png') no-repeat 0 0; z-index:-1;}
 .hm_07 {position:absolute; top:433px; left:90px; width:49px; height:47px; background: url('../images/hm_07.png') no-repeat 0 0; z-index:-1;}
 .hm_08 {position:absolute; top:409px; right:0; width:92px; height:125px; background: url('../images/hm_08.png') no-repeat 0 0;}
 
@@ -221,5 +275,5 @@
 
 /* popup */
 .popup_modal {position:fixed; left:0; right:0; top:0; bottom:0; width:100%; height:100%; background-color:rgba(0, 0, 0, 0.7); z-index:999; overflow:hidden;}
-.popup_modal > button {position:absolute; left:50%; top:50%; width:calc(100% - 84px); height:42px; background:#FFFFFF; border-radius:10px; font-family:'Noto Sans KR'; font-style:normal; font-weight:normal; font-size:16px; line-height:22px; letter-spacing:-0.05em; color:#000000; transform:translate(-50%,-50%);}
+.popup_modal > button {position:absolute; left:50%; top:50%; width:calc(100% - 84px); height:42px; background:#FFFFFF; border-radius:10px; font-family:'Noto Sans KR'; font-style:normal; font-weight:400; font-size:16px; line-height:22px; letter-spacing:-0.05em; color:#000000; transform:translate(-50%,-50%);}
 .popup_modal > button > span {padding-left:15px; opacity:0.3;}
