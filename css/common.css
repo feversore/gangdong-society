@@ -102,9 +102,9 @@
     clear:both; 
     display:block;
 }
-.ft_fix .ft_link > li {float:left; height:75px; margin-left:15px;}
+.ft_fix .ft_link > li {float:left; margin-left:15px;}
 .ft_fix .ft_link > li:first-child {margin-left:0;}
-.ft_fix .ft_link > li > a {position:relative; display:block;}
+.ft_fix .ft_link > li > a {position:relative; display:block; height:75px; }
 .ft_fix .ft_link > li > a > em {display:block; font-family:'Cafe24Ssurround'; font-style:normal; font-weight:bold; font-size:15px; line-height:18px; letter-spacing:-0.05em; color:#000000; text-align:center;}
 .ft_fix .ft_link .link01 {width:79px;}   
 .ft_fix .ft_link .link01 a::before {

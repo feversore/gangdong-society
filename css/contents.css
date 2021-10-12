@@ -87,9 +87,9 @@
 }
 
 /* concert */
-.cont_concert {position:relative; margin:0 auto; padding:0 10px 78px;  text-align:center;}
+.cont_concert {position:relative; margin:0 auto; padding:0 10px 95px;  text-align:center;}
 .cont_concert p, .cont_concert button {text-align:center; font-family:'Cafe24Ssurround'; font-style:normal; font-weight:bold; font-size:20px; line-height:24px; align-items:center; letter-spacing:-0.05em; color:#442F5B;}
-.cont_concert .concert_txt {padding-top:46px;}
+.cont_concert .concert_txt {padding-top:30px;}
 .cont_concert .concert_img {width:288px; height:178px; margin:7px auto 0; background: url('../images/character_img.png') no-repeat 0 0; background-size:100%; text-indent:-9999px;}
 
 .cont_concert .concert_btn {position:relative; top:-18px; height:66px; margin:0 auto; padding:0 59px 0 27px; background-color:#FFE9DD; border:3px solid #442F5B; box-sizing:border-box; border-radius:100px; }
@@ -120,7 +120,7 @@
 .cont_info .info_list li > a > span {display:block; margin-top:10px; font-family:'Cafe24SsurroundAir'; font-style:normal; font-weight:300; font-size:13px; line-height:18px; text-align:left; color:#000000;}
 
 /* share */
-.cont_share {padding:15px 25px 108px; font-style:normal; color:#000000;}
+.cont_share {padding:15px 25px 98px; font-style:normal; color:#000000;}
 .cont_share .share_list {}
 .cont_share .share_list li {margin-top:15px; font-family:'Cafe24Ssurround'; font-weight:bold; font-size:15px; line-height:18px; letter-spacing:-0.05em;}
 .cont_share .share_list li > .share_info {padding:30px 22px; border:2px solid #000000; box-sizing:border-box; box-shadow:0px 2px 0px #000000; border-radius:10px;}
@@ -146,6 +146,8 @@
     left:63px;
 	background: url("../images/view_ico.png") no-repeat;
 }
+.btn_write {position:absolute; bottom:100px; right:10px; width:80px; height:80px; background: url("../images/btn_write.png") no-repeat; background-size:80px; text-indent:-9999px;}
+.btn_write > a {display:block;}
 
 /* share artist profile */
 .heart {position:relative; width:100%; padding:8px 26px 0 0; font-family:'Cafe24Ssurround'; font-style:normal; font-weight:bold; line-height:18px; text-align:right; letter-spacing:-0.05em; color:#000000;}
@@ -220,20 +222,31 @@
 .ft_open .inner {position:relative; display:table; width:355px; height:60px; margin:0 auto;}
 .ft_open .inner .open_soon {display:table-cell; width:245px; height:60px; margin-left:10px; background:#FFEFE6; box-shadow:0px 4px 15px rgba(0, 0, 0, 0.05); border-radius:13px;font-family:'Cafe24Ssurround'; font-style:normal; font-weight:bold; font-size:20px; line-height:24px; align-items:center; text-align:center; letter-spacing:-0.05em; color:#AD3D00; opacity:0.3; vertical-align:middle;}
 
-.ft_open .inner .instar {position:relative;}
-.ft_open .inner .instar > a {position:absolute; bottom:10px; left:20px; display:table-cell; width:79px; height:75px; background:url('../images/instar_ico.png') no-repeat 0 0; background-size:100%; text-indent:-9999px;}
+.ft_open .inner .instar {position:relative; 
+    display:table-cell;}
 .ft_open .inner .instar::before {
     content:""; 
     position:relative; 
     top:0; 
     left:10px; 
-    display:table-cell; 
+    display:block; 
     width:100px; 
     height:60px; 
     background:#FFFFFF; 
     box-shadow:0px 4px 15px rgba(0, 0, 0, 0.05); 
     border-radius:13px;
 }
+.ft_open .inner .instar > a {position:absolute; bottom:10px; left:20px; display:table-cell; width:79px; height:75px;}
+.ft_open .inner .instar a::before {
+    content:"";
+    display:block; 
+    width:51px; 
+    height:50px; 
+    background: url('../images/ft_icon_03.png') no-repeat; 
+    background-size:51px auto;
+    margin:0 auto;
+}
+.ft_open .inner .instar > a > em {display:block; font-family:'Cafe24Ssurround'; font-style:normal; font-weight:bold; font-size:15px; line-height:18px; letter-spacing:-0.05em; color:#000000; text-align:center;}
 
 /* _profile */
 .cont_ap {padding:30px 30px 95px;}
