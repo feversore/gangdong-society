@@ -342,7 +342,6 @@
 
 /* mypage */
 .cont_my {padding:25px 25px 95px;}
-.my_list {}
 .my_list > li {height:81px; margin-top:15px; padding:20px; background:#FFFFFF; border:2px solid rgba(0, 71, 255, 0.2); box-sizing:border-box; border-radius:13px;}
 .my_list > li:first-child {margin-top:0;}
 
@@ -350,6 +349,14 @@
 .my_box .ico {position:absolute; top:0; left:0; width:40px; height:40px;}
 .my_box .tit {margin-bottom:5px;}
 .my_box .txt {font-size:13px; opacity:0.45;}
+
+/* mypage gift */
+.my_gift > li {height:70px; margin-top:15px; padding-bottom:15px; border-bottom:2px solid #C5E4EB; }
+.gift_box {display:block; position:relative; padding:15px 15px 15px 85px; }
+.gift_box > span {font-style:normal; font-size:15px; line-height:18px; letter-spacing:-0.05em; }
+.gift_box .ico {position:absolute; top:0; left:0; width:70px; height:70px;}
+.gift_box .tit {margin-bottom:5px; font-family:'Cafe24Ssurround'; font-weight:700; color:#000000;}
+.gift_box .txt {font-family:'Roboto'; font-weight:400; color:#939393; text-overflow: ellipsis; white-space:nowrap; overflow:hidden;}
 
 /* member */
 .member_link {float:none; display:block; width:245px; height:50px; margin:0 auto; background: url('../images/member_sns.png') no-repeat; background-size:100%;}
