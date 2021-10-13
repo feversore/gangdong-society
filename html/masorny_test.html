@@ -38,7 +38,7 @@
                 <!-- Swiper -->
                 <div class="filter_tab">
                     <ul class="filter-wrapper">
-                        <li class="filter-item"><a href="#">전체</a></li>
+                        <li class="filter-item on"><a href="#">전체</a></li>
                         <li class="filter-item"><a href="#">음악</a></li>
                         <li class="filter-item"><a href="#">영상</a></li>
                         <li class="filter-item"><a href="#">미디어 아트</a></li>
@@ -211,7 +211,7 @@
         console.log('aaaaa')
         var $grid = $('.grid').masonry({
             itemSelector: '.grid-item',
-
+            // fitWidth: true,
             horizontalOrder:true,
         });
     });
