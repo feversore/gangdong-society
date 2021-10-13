@@ -376,20 +376,24 @@
 .cont_pp .pp_active .ppa_career ul li {margin-top:3px;}
 .cont_pp .pp_active .ppa_career ul li:first-child {margin-top:0;}
 
-.cont_pp .sns_link {float:none; display:block; width:232px; height:44px; margin:0 auto; background: url('../images/sns_link.png') no-repeat; background-size:100%;}
-.cont_pp .sns_link > li {float:left; margin-left:3px;}
-.cont_pp .sns_link > li::after {
+.cont_pp .sns_link {float:none; display:block; width:232px; margin:0 auto;}
+.cont_pp .sns_link::after {
     content:''; 
     clear:both; 
     display:block;
 }
+.cont_pp .sns_link > li {float:left; margin-left:3px; background-repeat:no-repeat; background-position:50% 50%; background-size:24px;}
 .cont_pp .sns_link > li:first-child {margin-left:0;}
 .cont_pp .sns_link > li > a {display:block; width:44px; height:44px; text-indent:-9999px;}
-
+.cont_pp .sns_link > li.sns_utube {background-image: url('../images/apa_ico_utube.png');}
+.cont_pp .sns_link > li.sns_instar {background-image: url('../images/apa_ico_instar.png');}
+.cont_pp .sns_link > li.sns_twitter {background-image: url('../images/apa_ico_twitter.png');}
+.cont_pp .sns_link > li.sns_email {background-image: url('../images/apa_ico_email.png');}
+.cont_pp .sns_link > li.sns_phone {background-image: url('../images/apa_ico_phone.png');}
 
 /* popup */
 .popup_modal {position:fixed; left:0; right:0; top:0; bottom:0; width:100%; height:100%; background-color:rgba(0, 0, 0, 0.7); z-index:999; overflow:hidden;}
-.popup_modal > button {position:absolute; left:50%; top:50%; width:calc(100% - 84px); height:42px; background:#FFFFFF; border-radius:10px; font-family:'Roboto'; font-style:normal; font-weight:400; font-size:16px; line-height:22px; letter-spacing:-0.05em; color:#000000; transform: translate(-50%,-50%);}
+.popup_modal > button {position:absolute; left:50%; top:50%; width:calc(100% - 84px); height:42px; background:#FFFFFF; border-radius:10px; font-family:'Roboto'; font-style:normal; font-weight:400; font-size:16px; line-height:22px; letter-spacing:-0.05em; color:#000000; transform:translate(-50%,-50%);}
 .popup_modal > button > span {padding-left:15px; opacity:0.3;}
 
 /* mypage */
