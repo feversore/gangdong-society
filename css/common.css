@@ -44,7 +44,7 @@
 }
 
 .head_fix .head_txt {margin-top:15px; padding:20px; background-color:#FFF57F; border:2px solid rgba(0, 0, 0, 0.1); box-sizing:border-box; border-radius:13px; text-align:left; font-family:'Roboto'; font-style:normal; font-weight:700; font-size:15px; line-height:18px; letter-spacing:-0.05em; color:#432F5A;}
-.head_fix .head_txt .ico_note {position:relative; margin-top:10px; padding:4px 0 3px 25px; font-family:'Roboto'; font-style:normal; font-weight:bold; font-size:12px; line-height:14px; letter-spacing:-0.05em; color:#A15366;}
+.head_fix .head_txt .ico_note {position:relative; margin-top:10px; padding:4px 0 3px 25px; font-family:'Roboto'; font-style:normal; font-weight:700; font-size:12px; line-height:14px; letter-spacing:-0.05em; color:#A15366;}
 .head_fix .head_txt .ico_note::before {
     content:""; 
     position:absolute; 
@@ -58,7 +58,7 @@
     background-size:20px;
 }
 
-.head_fix .head_txt.ht_type2 {background-color:#FFFFFF; border:2px solid rgba(0, 71, 255, 0.2);}
+.head_fix .head_txt.ht_type2 {background-color:#FFFFFF; border:2px solid rgba(0, 71, 255, 0.2); font-weight:400;}
 .head_fix .head_txt.ht_type2 .ico_note {color:#585CB1;}
 .head_fix .head_txt.ht_type2 .ico_note::before {
     background:url('../images/note_ico_02.png') no-repeat;
