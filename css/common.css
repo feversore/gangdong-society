@@ -1,38 +1,5 @@
 @charset "utf-8";
-
-
-@font-face {
-    font-family: 'Cafe24Ssurround';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/Cafe24Ssurround.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;   
-}
-
-@font-face {
-    font-family: 'Cafe24SsurroundAir';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/Cafe24SsurroundAir.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Noto Sans KR';
-    font-style: normal;
-    font-weight: 400;
-    src: url('../font/NotoSansKR-Regular.woff2') format('woff2'),
-    url('../font/NotoSansKR-Regular.woff') format('woff'),
-    url('../font/NotoSansKR-Regular.otf') format('opentype');
-}
-
-@font-face {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    src: url('../font/roboto-v29-latin-regular.woff2') format('woff2'),
-    url('../font/roboto-v29-latin-regular.woff') format('woff'),
-    url('../font/roboto-v29-latin-regular.otf') format('opentype'),
-    url('../font/roboto-v29-latin-regular.ttf') format('truetype');
-}
+@import url('font.css');
 
 .wrap {display:block; width:100%; height:100%; overflow:visible;}
 
@@ -46,7 +13,6 @@
 .bgCol_01 {background-color:#FAD9C7;}
 .bgCol_02 {background-color:#FEF9E2;}
 .bgCol_03 {background-color:#F9FDFF;}
-.bgCol_04 {background-color:#E2F4F8;}
 
 /* open home:page */
 .main .head_fix {position:absolute; top:0; left:0; right:0; margin-bottom:20px; padding:10px 10px 0; z-index:1;}
@@ -54,24 +20,24 @@
 
 /* sub:page */
 .sub .head_fix {position:relative; top:0; left:0; right:0; padding:10px 10px 0;}
-.main .head_fix h1, .sub .head_fix h1 {display:block; width:355px; height:60px; margin:0 auto 20px; z-index:1; background: url('../images/header.png') no-repeat 0 0; background-size:100%; text-indent:-9999px;}
+.main .head_fix h1, .sub .head_fix h1 {display:block; width:355px; height:60px; margin:0 auto 20px; z-index:1; background:url('../images/header.png') no-repeat 0 0; background-size:100%; text-indent:-9999px;}
 
 /* header */
 .head_fix .head_tit {position:relative; top:0; left:0; display:block; height:32px; margin:0 auto;}
 .head_fix .head_tit > a::before {
 	content:"";
     position:absolute;
-    top:0; 
+    top:0;
     left:0;
 	display:block;
 	width:32px;
 	height:32px;
-	background: url("../images/header_ico.png") no-repeat;
+	background:url("../images/header_ico.png") no-repeat;
     background-size:100%;
 }
-.head_fix .head_tit > a {padding-left:42px; font-family:'Cafe24Ssurround'; font-style:normal; font-weight:700; font-size:17px;line-height:32px; text-align:left; letter-spacing:-0.05em;}
+.head_fix .head_tit > a {padding-left:42px; font-family:'Cafe24 Ssurround'; font-style:normal; font-weight:700; font-size:17px;line-height:32px; text-align:left; letter-spacing:-0.05em;}
 
-.head_fix .head_txt {margin-top:15px; padding:20px; background-color:#FFF57F; border:2px solid rgba(0, 0, 0, 0.1); box-sizing:border-box; border-radius:13px; text-align:left; font-family:'Roboto'; font-style:normal; font-weight:700; font-size:15px; line-height:18px; letter-spacing:-0.05em; color: #432F5A;}
+.head_fix .head_txt {margin-top:15px; padding:20px; background-color:#FFF57F; border:2px solid rgba(0, 0, 0, 0.1); box-sizing:border-box; border-radius:13px; text-align:left; font-family:'Roboto'; font-style:normal; font-weight:700; font-size:15px; line-height:18px; letter-spacing:-0.05em; color:#432F5A;}
 .head_fix .head_txt .ico_note {position:relative; margin-top:10px; padding:3px 0 3px 25px; font-family:'Roboto'; font-style:normal; font-weight:bold; font-size:12px; line-height:14px; letter-spacing:-0.05em; color:#A15366;}
 .head_fix .head_txt .ico_note::before {
     content:""; 
@@ -82,15 +48,15 @@
     width:20px; 
     height:20px; 
     margin-right:5px; 
-    background: url('../images/note_ico.png') no-repeat; 
+    background:url('../images/note_ico.png') no-repeat;
     background-size:100%;
 }
 
 /* footer */
 .ft_fix {position:fixed; bottom:0; left:0; right:0; padding:0 10px 10px 10px;}
 .ft_fix::before {
-    content: "";
-    display: block;
+    content:"";
+    display:block;
     width:100%;
     height:60px; 
     background-color:#fff; 
@@ -113,7 +79,7 @@
     display:block; 
     width:80px; 
     height:51px; 
-    background: url('../images/ft_icon_01.png') no-repeat; 
+    background:url('../images/ft_icon_01.png') no-repeat;
     background-size:75px auto;
     margin:0 auto;
 } 
@@ -122,7 +88,7 @@
     display:block; 
     width:51px; 
     height:50px; 
-    background: url('../images/ft_icon_01_on.png') no-repeat; 
+    background:url('../images/ft_icon_01_on.png') no-repeat;
     background-size:51px auto;
     margin:0 auto;
 } 
@@ -132,7 +98,7 @@
     display:block; 
     width:51px; 
     height:50px; 
-    background: url('../images/ft_icon_02.png') no-repeat; 
+    background:url('../images/ft_icon_02.png') no-repeat;
     background-size:51px auto;
     margin:0 auto;
 }    
@@ -142,7 +108,7 @@
     display:block; 
     width:51px; 
     height:50px; 
-    background: url('../images/ft_icon_03.png') no-repeat; 
+    background:url('../images/ft_icon_03.png') no-repeat;
     background-size:51px auto;
     margin:0 auto;
 }    
