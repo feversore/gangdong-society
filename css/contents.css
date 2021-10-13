@@ -2,7 +2,14 @@
 
 /************************************ css 추가 ************************************/
 /* motion */
-
+.motion_101 {position:absolute; top:49px; left:44.53%; width:92px; height:89px; background: url('../images/motion_ico_101.png') no-repeat; /* animation: wheel102 10s linear infinite; transform-origin:50% 50%; */ z-index:-1;}
+@keyframes wheel101 {
+    100% {transform: rotate(360deg);}
+}
+.motion_102 {position:absolute; top:56px; left:68.53%; width:84px; height:86px; background: url('../images/motion_ico_102.png') no-repeat; animation: wheel101 10s linear infinite; transform-origin:50% 50%;}
+@keyframes wheel102 {
+    100% {transform: rotate(360deg);}
+}
 
 /* plan motion */
 .motion_201 {position:absolute; top:58px; right:103px; width:73px; height:75px; background: url('../images/motion_ico_201.png') no-repeat; animation: wheel201 10s linear infinite; transform-origin:50% 50%;}
