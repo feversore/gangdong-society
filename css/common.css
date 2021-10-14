@@ -4,6 +4,8 @@
 .wrap {display:block; width:100%; height:100%; overflow:visible;}
 
 /* common */
+.blind {position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0, 0, 0, 0);border:0;}
+
 .fs10 {font-size:10px;}
 .fs15 {font-size:15px;}
 .pt25 {padding-top:25px;}

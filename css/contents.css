@@ -487,3 +487,32 @@
 .tb_ranking > table .ranking_score em {padding-right:7px;}
 .tb_ranking > table .ranking_day {text-align:right; font-family:'Roboto'; font-size:15px; line-height:18px; font-weight:400; color:#939393;}
 .tb_ranking > table .ranking_day em {padding-right:10px;}
+
+/* artist */
+.btn_like {display:block;width:16px;height:15px;background:url('../images/ico_like_small.png') no-repeat 0 0;background-size:100% 200%;}
+.btn_like.on {background-position:0 bottom;}
+
+.cont_gallery {padding-bottom:108px;}
+
+.filter_tab {padding:0 5px;margin:10px 0 20px;}
+.filter_wrapper {}
+.filter_wrapper:after {content:'';clear:both;display:block;}
+.filter_item {float:left;display:block;height:45px;margin:0 5px 10px;background:#D6EDF9;box-sizing:border-box;border-radius:13px;}
+.filter_item.on {background:#FFFFFF;border:2px solid #000000;}
+.filter_item.on a {color:#000}
+.filter_item a {display:block;min-width:55px;height:100%;padding:15px 15px 13px;font-family:'Cafe24Ssurround', sans-serif;color:#84A8BA;font-size:14px;font-weight:700;line-height:17px;letter-spacing:-0.05em;text-align:center;box-sizing:border-box;white-space:nowrap;}
+
+.grid_container {padding:0 2.66%;height:100%;}
+.grid_wrapper {width:100%;height:100%;}
+.grid_wrapper:after {content:'';clear:both;display:block;}
+.grid_item {float:left;width:50%;display:block;height:auto;margin:0;padding:0 0 20px 0;-webkit-box-sizing:border-box;box-sizing:border-box;}
+.grid_inner {position:relative;padding:0 4.22%;height:100%;}
+.grid_thumbnail {overflow:hidden;position:relative;padding-top:129.03%;border-radius:10px}
+.grid_thumbnail.short {padding-top:84.51%}
+.grid_thumbnail img {position:absolute;top:50%;bottom:0;right:0;left:50%;height:100%;transform:translateX(-55%) translateY(-55%) scale(2);z-index:-1;}
+.grid_info {position:relative;padding-top:8px;}
+.grid_info .grid_like {position:absolute;top:12px;right:0;z-index:10;}
+.grid_title, .grid_description {overflow:hidden;display:inline-block;width:100%;font-family:'Cafe24SsurroundAir', sans-serif;font-weight:300;letter-spacing:0px;text-align:left;}
+.grid_title {width:calc(100% - 18px);height:24px;color:#18191F;font-size:15px;line-height:24px;}
+.grid_description {text-overflow:ellipsis;white-space:nowrap;color:#474A57;font-size:13px;line-height:18px;}
+
