@@ -19,9 +19,8 @@ function initLikedBtn(self){
    }
 }
 
-
-//popup
 $(document).ready(function(){
+    //popup
 	$('#layer').click(function(e){
         e.preventDefault();
 		$('.popup_modal').show();	
@@ -47,5 +46,17 @@ $(document).ready(function(){
             $('li').removeClass('active');
             $(this).addClass('active');
         }
-    });   
+    });
+
+    //password display
+    $('.slt i.ico_pw_display').on('click',function(){
+        $('input').toggleClass('active');
+        if($('input').hasClass('active')){
+            $(this).attr('class',"ico_pw_display")
+            .prev('input').attr('type',"text");
+        }else{
+            $(this).attr('class',"ico_pw_display")
+            .prev('input').attr('type','password');
+        }
+    });
 });    
