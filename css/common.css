@@ -69,7 +69,7 @@
 }
 
 /* footer */
-.ft_fix {position:fixed; bottom:0; left:0; right:0; padding:0 10px 10px 10px;}
+.ft_fix {position:fixed; bottom:0; left:0; right:0; padding:0 10px 10px 10px; z-index:99;}
 .ft_fix::before {
     content:"";
     display:block;
