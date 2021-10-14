@@ -33,25 +33,14 @@
             <div class="cont_ranking"> 
                 <div class="filter_btn"> 
                     <ul class="filter_wrapper fl_left">
-                        <li class="filter_item on"><a href="#">전체</a></li><!-- button 전체 -->
-                        <li class="filter_item"><a href="#">내 순위</a></li><!-- button 내순위 -->
+                        <li class="filter_item on"><a href="#">전체</a></li><!-- .on -->
+                        <li class="filter_item"><a href="#">내 순위</a></li>
                     </ul>
                     <ul class="filter_order fl_right">
-                        <li class="on"><a href="#">내림차순</a></li><!-- button 내림차순 -->
-                        <li><a href="#">오름차순</a></li><!-- button 오름차순 -->
+                        <li class="active"><a href="#">내림차순</a></li><!-- .active -->
+                        <li><a href="#">오름차순</a></li>
                     </ul>
                 </div>
-                <script>
-                    $('.filter_item').click(function () {
-                        if ($(this).hasClass('on')) {
-                            $('li').removeClass('on');
-                        }
-                        else {
-                            $('li').removeClass('on');
-                            $(this).addClass('on');
-                        }
-                    });                   
-                </script>
                 <div class="tb_ranking">
                     <table>											
                         <caption>랭킹순위</caption>											

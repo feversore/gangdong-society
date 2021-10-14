@@ -29,5 +29,23 @@ $(document).ready(function(){
     $('.popup_modal').click(function() {
         $(this).hide();
     });
-});
-
+    
+    $('.filter_item').click(function () {
+        if ($(this).hasClass('on')) {
+            $('li').removeClass('on');
+        }
+        else {
+            $('li').removeClass('on');
+            $(this).addClass('on');
+        }
+    });  
+    $('.filter_order li').click(function () {
+        if ($(this).hasClass('active')) {
+            $('li').removeClass('active');
+        }
+        else {
+            $('li').removeClass('active');
+            $(this).addClass('active');
+        }
+    });   
+});    
