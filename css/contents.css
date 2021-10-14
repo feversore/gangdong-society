@@ -242,8 +242,8 @@
     position:absolute;
     bottom:5px; 
     right:5px;
-	background: url("../images/view_ico.png") no-repeat;
-    background-size: 32px;
+	background:url("../images/view_ico.png") no-repeat;
+    background-size:32px;
 }
 .cont_ap .ap_active {float:left; position:relative; display:block; height:100px; padding:10px 0; margin-left:20px;font-style:normal; font-size:15px; line-height:18px; letter-spacing:-0.05em;}
 .cont_ap .ap_active .apa_name {font-family:'Cafe24Ssurround'; font-style:normal; font-weight:bold; font-size:15px; line-height:18px; letter-spacing:-0.05em; color:#000000; }
@@ -395,9 +395,9 @@
 
 /* ranking */
 .cont_ranking {padding:15px 10px 95px;}
-.filter-order li {float:left; display:block; height:45px; margin:0 0 10px 8px; box-sizing:border-box; border-radius:13px;}
-.filter-order li.on a {opacity:1;}
-.filter-order li a {display:block; min-width:55px; height:100%; padding:15px 0 13px; font-family:'Cafe24Ssurround', sans-serif; font-size:14px; font-weight:700; line-height:17px; letter-spacing:-0.05em; text-align:center; box-sizing:border-box; white-space:nowrap; color:#000000; opacity:0.15;}
+.filter_order li {float:left; display:block; height:45px; margin:0 0 10px 8px; box-sizing:border-box; border-radius:13px;}
+.filter_order li.on a {opacity:1;}
+.filter_order li a {display:block; min-width:55px; height:100%; padding:15px 0 13px; font-family:'Cafe24Ssurround', sans-serif; font-size:14px; font-weight:700; line-height:17px; letter-spacing:-0.05em; text-align:center; box-sizing:border-box; white-space:nowrap; color:#000000; opacity:0.15;}
 
 .tb_ranking th, .tb_ranking td {padding:20px 0; border-bottom:2px solid #C5E4EB; font-style:normal; letter-spacing:-0.05em;}
 .tb_ranking {padding:0 15px; border-collapse:collapse; border:0; border-spacing:0;}
