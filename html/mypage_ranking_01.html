@@ -32,15 +32,26 @@
         <div class="container">
             <div class="cont_ranking"> 
                 <div class="filter_btn"> 
-                    <ul class="filter-wrapper fl_left">
-                        <li class="filter-item on"><a href="#">전체</a></li><!-- button 전체 -->
-                        <li class="filter-item"><a href="#">내 순위</a></li><!-- button 내순위 -->
+                    <ul class="filter_wrapper fl_left">
+                        <li class="filter_item on"><a href="#">전체</a></li><!-- button 전체 -->
+                        <li class="filter_item"><a href="#">내 순위</a></li><!-- button 내순위 -->
                     </ul>
-                    <ul class="filter-order fl_right">
+                    <ul class="filter_order fl_right">
                         <li class="on"><a href="#">내림차순</a></li><!-- button 내림차순 -->
                         <li><a href="#">오름차순</a></li><!-- button 오름차순 -->
                     </ul>
                 </div>
+                <script>
+                    $('.filter_item').click(function () {
+                        if ($(this).hasClass('on')) {
+                            $('li').removeClass('on');
+                        }
+                        else {
+                            $('li').removeClass('on');
+                            $(this).addClass('on');
+                        }
+                    });                   
+                </script>
                 <div class="tb_ranking">
                     <table>											
                         <caption>랭킹순위</caption>											
@@ -55,8 +66,7 @@
                                 <th scope="row" class="ranking_num rk_first">1등</th><!-- number --><!-- 1등 .rk_first -->			
                                 <td class="ranking_score"><em>2,215</em>점</td><!-- score -->										
                                 <td class="ranking_day"><em>2021.11.25.</em>17:35:27</td><!-- day -->
-                            </tr>
-                            <!-- //temp -->		
+                            </tr>	
                             <tr>													
                                 <th scope="row" class="ranking_num rk_second">2등</th><!-- 2등 .rk_second -->
                                 <td class="ranking_score"><em>2,215</em>점</td>											
@@ -67,6 +77,7 @@
                                 <td class="ranking_score"><em>2,215</em>점</td>												
                                 <td class="ranking_day"><em>2021.11.25.</em>17:35:27</td>
                             </tr>
+                            <!-- //temp -->	
                             <tr>													
                                 <th scope="row" class="ranking_num">4등</th>
                                 <td class="ranking_score"><em>2,215</em>점</td>
