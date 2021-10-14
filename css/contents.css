@@ -469,3 +469,21 @@
 .cont_policy .plicy_box {padding:20px; background:#FFFFFF; border:2px solid rgba(0, 71, 255, 0.2); box-sizing:border-box; border-radius:13px; font-family:'Roboto'; font-style:normal; font-weight:400; line-height:18px; letter-spacing:-0.05em; color:#000000;}
 .cont_policy .plicy_box > dl dt {font-size:15px;}
 .cont_policy .plicy_box > dl dd {margin:5px 0 10px; font-size:13px; opacity:0.45;}
+
+/* ranking */
+.cont_ranking {padding:15px 10px 95px;}
+.filter-order li {float:left; display:block; height:45px; margin:0 0 10px 8px; box-sizing:border-box; border-radius:13px;}
+.filter-order li.on a {opacity:1;}
+.filter-order li a {display:block; min-width:55px; height:100%; padding:15px 0 13px; font-family:'Cafe24Ssurround', sans-serif; font-size:14px; font-weight:700; line-height:17px; letter-spacing:-0.05em; text-align:center; box-sizing:border-box; white-space:nowrap; color:#000000; opacity:0.15;}
+
+.tb_ranking th, .tb_ranking td {padding:20px 0; border-bottom:2px solid #C5E4EB; font-style:normal; letter-spacing:-0.05em;}
+.tb_ranking {padding:0 15px; border-collapse:collapse; border:0; border-spacing:0;}
+.tb_ranking > table {width:100%; border-collapse:collapse; border:0; border-spacing:0;}
+.tb_ranking > table th.ranking_num {font-family:'Cafe24Ssurround', sans-serif; font-size:23px; line-height:27px; font-weight:700; color:#000000; text-align:left;}
+.tb_ranking > table th.ranking_num.rk_first::before {content:""; display:inline-block; width:25px; height:25px; background: url("../images/rk_ico_01.png") no-repeat 0 0; background-size:25px; vertical-align:middle;}
+.tb_ranking > table th.ranking_num.rk_second::before {content:""; display:inline-block; width:25px; height:25px; background: url("../images/rk_ico_02.png") no-repeat 0 0; background-size:25px; vertical-align:middle;}
+.tb_ranking > table th.ranking_num.rk_third::before {content:""; display:inline-block; width:25px; height:25px; background: url("../images/rk_ico_03.png") no-repeat 0 0; background-size:25px; vertical-align:middle;}
+.tb_ranking > table .ranking_score {margin-right:7px; font-family:'Cafe24Ssurround', sans-serif; font-size:15px; line-height:18px; font-weight:700; color:#000000; text-align:center;}
+.tb_ranking > table .ranking_score em {padding-right:7px;}
+.tb_ranking > table .ranking_day {text-align:right; font-family:'Roboto'; font-size:15px; line-height:18px; font-weight:400; color:#939393;}
+.tb_ranking > table .ranking_day em {padding-right:10px;}

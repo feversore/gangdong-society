@@ -11,7 +11,9 @@
 .pr15 {padding-right:15px;}
 .mt25 {margin-top:25px;}
 .mt70 {margin-top:70px !important;}
-.b200 {border-top:2px solid #000000; }
+.b200 {border-top:2px solid #000000;}
+.fl_left {float:left;}
+.fl_right {float:right;}
 
 /* header */
 .bgCol_00 {background-color:#000000;}
