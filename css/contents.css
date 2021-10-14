@@ -165,7 +165,7 @@
 
 /* share artist profile */
 .heart {position:relative; width:100%; padding:8px 26px 0 0; font-family:'Cafe24Ssurround'; font-style:normal; font-weight:bold; line-height:18px; text-align:right; letter-spacing:-0.05em; color:#000000;}
-.heart.on::after {
+.heart::after {
     content:"";
     position:absolute;
     top:8px;
