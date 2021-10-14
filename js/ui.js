@@ -18,3 +18,16 @@ function initLikedBtn(self){
         $this.removeClass('on').find('span').remove();
    }
 }
+
+
+//popup
+$(document).ready(function(){
+	$('#layer').click(function(e){
+        e.preventDefault();
+		$('.popup_modal').show();	
+	});
+    $('.popup_modal').click(function() {
+        $(this).hide();
+    });
+});
+

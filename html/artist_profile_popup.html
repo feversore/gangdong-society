@@ -12,7 +12,7 @@
     
     <script src="../js/libs/jquery-2.1.3.min.js"></script>
     <script src="../js/libs/masonry.pkgd.min.js"></script>
-
+    <script src="../js/ui.js"></script>
 </head>
 
 <body class="sub bgCol_03">
@@ -24,7 +24,7 @@
             <h1>2021 강동구 청년축제</h1> 
             <div class="head_tit">
                 <!-- title -->
-                <h2><a href="#" class="pr15"><button class="heart fs10 on">158</button></a></h2><!-- heart .on/.off control -->
+                <h2><a href="#" class="pr15"><button class="heart fs10" onclick="initLikedBtn(this)">158</button></a></h2><!-- heart .on/.off control -->
             </div>  
         </header>
         <!-- //header -->
@@ -43,9 +43,9 @@
                             <span>패션</span>
                         </p>
                         <ul class="apa_list">
-                            <li class="apa_utube"><a href="#">유투브</a></li>
-                            <li class="apa_instar"><a href="#">인스타그램</a></li>
-                            <li class="apa_email"><a href="#">이메일</a></li>
+                            <li class="apa_utube"><a href="#">YouTube</a></li>
+                            <li class="apa_instar"><a href="#">instagram</a></li>
+                            <li id="layer" class="apa_email"><a href="#">email</a></li>
                         </ul>
                     </div>
                 </div>
@@ -86,8 +86,8 @@
 
     </div>
     
-    <!-- popup -->
-    <div class="popup_modal">
+    <!-- popup style delete -->
+    <div class="popup_modal" style="display:block;">
         <button>이메일 주소가 복사 되었습니다.<span>닫기</span></button>
     </div>
     <!-- //popup -->
