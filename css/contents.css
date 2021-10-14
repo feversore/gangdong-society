@@ -135,33 +135,11 @@
 
 /* share artist profile */
 .heart {position:relative; width:100%; padding:8px 26px 0 0; font-family:'Cafe24Ssurround'; font-style:normal; font-weight:bold; line-height:18px; text-align:right; letter-spacing:-0.05em; color:#000000;}
-.heart.on::after {
-    content:"";
-    position:absolute;
-    top:8px;
-    right:0;
-    display:block;
-	width:18px;
-	height:16px;
-    background: url("../images/heart_on.png") no-repeat 0 0;
-    background-size:18px 16px;
-}
-.heart::after {
-    content:"";
-    position:absolute;
-    top:7px;
-    right:0;
-    display:block;
-	width:20px;
-	height:18px;
-    background: url("../images/heart_off.png") no-repeat 0 0;
-    background-size:20px 18px;
-}
+.heart.on::after {content:""; position:absolute; top:8px; right:0; display:block; width:18px; height:16px; background:url("../images/heart_on.png") no-repeat 0 0; background-size:18px 16px;}
+.heart::after {content:""; position:absolute; top:7px; right:0; display:block; width:20px; height:18px; background: url("../images/heart_off.png") no-repeat 0 0; background-size:20px 18px;}
 
 /* share_write */
-.share_inpType {font-family:'Roboto'; font-style:normal;
-    font-weight:700; font-size:15px; line-height:18px;
-    letter-spacing:-0.05em; color:#000000;}
+.share_inpType {font-family:'Roboto'; font-style:normal; font-weight:700; font-size:15px; line-height:18px; letter-spacing:-0.05em; color:#000000;}
 .share_inpType > li {margin-top:25px;}
 .share_inpType > li:first-child {margin-top:0;}
 .share_inpType > li label {display:block; margin-bottom:10px;}
@@ -174,38 +152,17 @@
 
 .inp_btn_plus {width:60px; height:60px; background:#FFFFFF; border:2px solid #000000; box-sizing:border-box; border-radius:13px; text-indent:-9999px;}
 .inp_btn_plus {position:relative; width:60px; height:60px; background:#FFFFFF; border:2px solid #000000; box-sizing:border-box; border-radius:13px; text-indent:-9999px;}
-.inp_btn_plus::before {
-    content:"";
-    position:absolute;
-    top:18px;
-    left:18px;
-    display:block;
-	width:20px;
-	height:20px;
-    background: url("../images/btn_plus_ico.png") no-repeat 0 0;
-    background-size:20px;
-}
+.inp_btn_plus::before {content:""; position:absolute; top:18px; left:18px; display:block; width:20px; height:20px; background: url("../images/btn_plus_ico.png") no-repeat 0 0; background-size:20px;}
 .inp_btm_btn {display:table; width:100%; text-align:right;}
 .inp_btm_btn > button {display:table-cell; width:150px; height:60px; font-family:'Roboto'; font-weight:400; font-style:normal; font-size:13px; text-align:right; line-height:15px; letter-spacing:-0.05em; color:#000000;}
 .inp_btm_btn .inp_btn_register {position:relative; margin-left:20px; padding-right:32px; background:#FFE3EB; border:2px solid #000000; box-sizing:border-box; box-shadow:0px 2px 0px #000000; border-radius:10px; font-weight:700; font-size:15px; line-height:18px;}
-.inp_btm_btn .inp_btn_register::before {
-    content:"";
-    position:absolute;
-    top:21px;
-    left:16px;
-    display:block;
-	width:25px;
-	height:20px;
-    background: url("../images/btn_plus_register.png") no-repeat 0 0;
-    background-size:25px 18px;
-}
+.inp_btm_btn .inp_btn_register::before {content:""; position:absolute; top:21px; left:16px; display:block; width:25px; height:20px; background: url("../images/btn_plus_register.png") no-repeat 0 0; background-size:25px 18px;}
 
 /* _view */
 .btn_close {position:relative; width:100%; height:74px; z-index:1;}
 .btn_close > button {position:absolute; top:20px; right:20px; display:block; width:32px; height:32px; background: url("../images/btn_close.png") no-repeat 0 0; text-indent:-9999px;}
 .view_img {position:absolute; top:50%; left:50%; width:100%; transform: translate(-50%,-50%);}
 .view_img img {width:100%;}
-.gallery_img {}
 .gallery_img img {width:100%;}
 
 .ft_view {position:fixed; bottom:0; left:0; right:0; padding:0 20px 20px; font-family:'Cafe24SsurroundAir'; font-style:normal; font-weight:300; font-size:15px; line-height:24px; color:#FFFFFF;}
@@ -219,11 +176,7 @@
 
 /* home */
 .cont_home {position:relative; margin:0 auto; padding:4px 0 95px; text-align:center;}
-.cont_home::after {
-    content:''; 
-    display:block; 
-    clear:both;
-} 
+.cont_home::after {content:''; display:block; clear:both;} 
 .cont_home .home_list {float:left; width:290px; margin:0 calc(50% - 145px); z-index:1;}
 .cont_home .home_list li {float:left; margin-top:10px; font-family:'Cafe24Ssurround'; font-style:normal; font-weight:bold; font-size:14px; line-height:17px; text-align:center; letter-spacing:-0.05em; color:#000000;}
 .cont_home .home_list li a {display:block; width:70px; height:92px;}
@@ -250,8 +203,7 @@
 .ft_open .inner {position:relative; display:table; width:355px; height:60px; margin:0 auto;}
 .ft_open .inner .open_soon {display:table-cell; width:245px; height:60px; margin-left:10px; background:#FFEFE6; box-shadow:0px 4px 15px rgba(0, 0, 0, 0.05); border-radius:13px;font-family:'Cafe24Ssurround'; font-style:normal; font-weight:bold; font-size:20px; line-height:24px; align-items:center; text-align:center; letter-spacing:-0.05em; color:#AD3D00; opacity:0.3; vertical-align:middle;}
 
-.ft_open .inner .instar {position:relative; 
-    display:table-cell;}
+.ft_open .inner .instar {position:relative; display:table-cell;}
 .ft_open .inner .instar::before {
     content:""; 
     position:relative; 
@@ -279,11 +231,7 @@
 /* _profile */
 .cont_ap {padding:30px;}
 .cont_ap .ap_intro {float:none;}
-.cont_ap .ap_intro::after {
-    content:''; 
-    clear:both; 
-    display:block;
-}
+.cont_ap .ap_intro::after {content:''; clear:both; display:block;}
 .cont_ap .ap_view {float:left; position:relative; display:block; width:120px; height:120px; margin:0 auto;}
 .cont_ap .ap_view > img {width:120px; height:120px; border-radius:13px;}
 .cont_ap .ap_view::after {
@@ -295,6 +243,7 @@
     bottom:5px; 
     right:5px;
 	background: url("../images/view_ico.png") no-repeat;
+    background-size: 32px;
 }
 .cont_ap .ap_active {float:left; position:relative; display:block; height:100px; padding:10px 0; margin-left:20px;font-style:normal; font-size:15px; line-height:18px; letter-spacing:-0.05em;}
 .cont_ap .ap_active .apa_name {font-family:'Cafe24Ssurround'; font-style:normal; font-weight:bold; font-size:15px; line-height:18px; letter-spacing:-0.05em; color:#000000; }
