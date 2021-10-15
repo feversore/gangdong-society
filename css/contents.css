@@ -1,9 +1,9 @@
 /* motion */
-.motion_101 {position:absolute; top:49px; left:44.53%; width:92px; height:89px; background: url('../images/motion_ico_101.png') no-repeat; /* animation: wheel102 10s linear infinite; transform-origin:50% 50%; */ z-index:-1;}
+.motion_101 {position:absolute; top:49px; left:44.53%; width:92px; height:89px; background: url('../images/motion_ico_101.png') no-repeat; animation: wheel101 10s linear infinite; transform-origin:50% 50%; z-index:-1;}
 @keyframes wheel101 {
     100% {transform: rotate(360deg);}
 }
-.motion_102 {position:absolute; top:56px; left:68.53%; width:84px; height:86px; background: url('../images/motion_ico_102.png') no-repeat; animation: wheel101 10s linear infinite; transform-origin:50% 50%;}
+.motion_102 {position:absolute; top:56px; left:68.53%; width:84px; height:86px; background: url('../images/motion_ico_102.png') no-repeat; /* animation: wheel102 10s linear infinite; transform-origin:50% 50%; */}
 @keyframes wheel102 {
     100% {transform: rotate(360deg);}
 }
@@ -44,6 +44,20 @@
     40% {transform: scale(0.75);}
     60% {transform: scale(1);}
     100% {transform: scale(0.75);}
+}
+
+/* gallery */
+.motion_401 {position:absolute; top:102px; right:112px; width:52px; height:52px; background: url('../images/motion_ico_401.png') no-repeat; animation: bloom401 2s linear infinite; transform-origin:50% 50%; z-index:1;}
+@keyframes bloom401 {
+    0% {transform: scale(0.75);}
+    25% {transform: scale(1);}
+    40% {transform: scale(0.75);}
+    60% {transform: scale(1);}
+    100% {transform: scale(0.75);}
+}
+.motion_402 {position:absolute; top:49px; right:44px; width:63px; height:63px; background: url('../images/motion_ico_402.png') no-repeat; animation: bloom402 10s linear infinite; transform-origin:50% 50%;}
+@keyframes bloom402 {
+    100% {transform: rotate(360deg);}
 }
 
 /* share motion */
