@@ -19,6 +19,9 @@ function initLikedBtn(self){
    }
 }
 
+function WinClose()
+{window.open('','_self').close();}
+
 $(document).ready(function(){
     //popup
 	$('#layer').click(function(e){
