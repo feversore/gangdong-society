@@ -414,6 +414,7 @@
 .tb_ranking {padding:0 15px; border-collapse:collapse; border:0; border-spacing:0;}
 .tb_ranking > table {width:100%; border-collapse:collapse; border:0; border-spacing:0;}
 .tb_ranking > table th.ranking_num {font-family:'Cafe24Ssurround', sans-serif; font-size:23px; line-height:27px; font-weight:700; color:#000000; text-align:left;}
+.tb_ranking > table th.ranking_num em {margin-left:7px;}
 .tb_ranking > table th.ranking_num.rk_first::before {content:""; display:inline-block; width:25px; height:25px; background: url("../images/rk_ico_01.png") no-repeat 0 0; background-size:25px; vertical-align:middle;}
 .tb_ranking > table th.ranking_num.rk_second::before {content:""; display:inline-block; width:25px; height:25px; background: url("../images/rk_ico_02.png") no-repeat 0 0; background-size:25px; vertical-align:middle;}
 .tb_ranking > table th.ranking_num.rk_third::before {content:""; display:inline-block; width:25px; height:25px; background: url("../images/rk_ico_03.png") no-repeat 0 0; background-size:25px; vertical-align:middle;}
