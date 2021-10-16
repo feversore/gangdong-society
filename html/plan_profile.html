@@ -2,15 +2,16 @@
 <html lang="ko">
 
 <head>    
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
+    <meta name="viewport" id="viewport" content="width=device-width,user-scalable=no,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0">
     <title>2021 강동구 청년축제</title>
-
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
     
-    <link rel="stylesheet" href="../css/base.css">
-    <link rel="stylesheet" href="../css/common.css">
-    <link rel="stylesheet" href="../css/contents.css">
-    <link href='http://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="../css/base.css" type="text/css">
+    <link rel="stylesheet" href="../css/common.css" type="text/css">
+    <link rel="stylesheet" href="../css/contents.css" type="text/css">
+    
+    <script src="../js/libs/jquery-2.1.3.min.js"></script>
+    <script src="../js/libs/masonry.pkgd.min.js"></script>
 
 </head>
 
@@ -23,26 +24,26 @@
             <h1>2021 강동구 청년축제</h1> 
             <div class="head_tit">
                 <!-- title -->
-                <a href="#">&nbsp;</a> 
+                <h2><a href="#">&nbsp;</a></h2>
             </div>  
         </header>
         <!-- //header -->
 
         <!-- contents -->
         <div class="container">
-            <div class="cont_ap">
+            <div class="cont_pp">
                 <!-- planner img -->
-                <p class="ap_view"><a href="#"><img src="../images/plan_view.png" alt=""></a></p>
+                <p class="pp_view"><a href="#"><img src="../images/plan_view.png" alt=""></a></p>
                 <!-- planner info -->
-                <dl class="ap_active">
+                <dl class="pp_active">
                     <dt>영끌 이름</dt>
-                    <dd class="apa_area">
+                    <dd class="ppa_area">
                         <span>활동분야 1</span>
                         <span>활동분야 2</span>
                         <span>활동분야 3</span>
                     </dd>
-                    <dd class="apa_txt">영끌에 대한 소개가 이 위치에 노출 됩니다.<br>2줄을 넘지 않는 것을 권장 합니다.</dd>
-                    <dd class="apa_career">
+                    <dd class="ppa_txt">영끌에 대한 소개가 이 위치에 노출 됩니다.<br>2줄을 넘지 않는 것을 권장 합니다.</dd>
+                    <dd class="ppa_career">
                         <ul>
                             <li>활동 이력1</li>
                             <li>활동 이력2</li>
@@ -51,11 +52,11 @@
                     </dd>
                 </dl>
                 <ul class="sns_link"> 
-                    <li><a href="#">YouTube</a></li> 
-                    <li><a href="#">Instagram</a></li> 
-                    <li><a href="#">twitter</a></li> 
-                    <li><a href="#">email</a></li> 
-                    <li><a href="#">phone</a></li> 
+                    <li class="sns_utube"><a href="#">YouTube</a></li>
+                    <li class="sns_instar"><a href="#">instagram</a></li>
+                    <li class="sns_twitter"><a href="#">twitter</a></li> 
+                    <li class="sns_email"><a href="#">email</a></li>
+                    <li class="sns_phone"><a href="#">phone</a></li> 
                 </ul> 
             </div>  
         </div>
@@ -64,14 +65,17 @@
         <!-- footer -->
         <footer class="ft_fix"> 
             <ul class="ft_link"> 
-                <li>
-                    <a href="#" class="link01">로그인</a>
+                <li class="link01">
+                    <a href="#"><em>로그인</em></a>
                 </li> 
-                <li>
-                    <a href="#" class="link02">내 순위</a>
+                <!-- li class="link01 on">
+                    <a href="#"><em>로그아웃</em></a>
+                </li --> 
+                <li class="link02">
+                    <a href="#"><em>내 순위</em></a>
                 </li> 
-                <li>
-                    <a href="#" class="link03">강청 인별</a>
+                <li class="link03">
+                    <a href="#"><em>강청 인별</em></a>
                 </li> 
             </ul> 
         </footer>

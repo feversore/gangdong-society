@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>    
+    <meta charset="utf-8">
+    <meta name="viewport" id="viewport" content="width=device-width,user-scalable=no,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0">
+    <title>2021 강동구 청년축제</title>
+    
+    <link rel="stylesheet" href="../css/base.css" type="text/css">
+    <link rel="stylesheet" href="../css/common.css" type="text/css">
+    <link rel="stylesheet" href="../css/contents.css" type="text/css">
+    
+    <script src="../js/libs/jquery-2.1.3.min.js"></script>
+    <script src="../js/libs/masonry.pkgd.min.js"></script>
+
+</head>
+
+<body class="sub bgCol_04">
+    
+    <div class="wrap">
+
+        <!-- header -->
+        <header class="head_fix">
+            <h1>2021 강동구 청년축제</h1>  
+            <div class="head_tit">
+                <!-- title -->
+                <h2><a href="#">게임 순위</a></h2>
+            </div>  
+            <div class="head_txt ht_type2">3위 이내 기록 시 2021년 12월 1일에 경품 발송 됩니다.       
+                <p class="ico_note">개인정보가 잘못 기재 되었다면 경품을 받을 수 없습니다.</p>
+            </div>
+        </header>
+        <!-- //header -->
+
+        <!-- contents -->
+        <div class="container">
+            <div class="cont_ranking"> 
+                <div class="filter_btn"> 
+                    <ul class="filter-wrapper fl_left">
+                        <li class="filter-item on"><a href="#">전체</a></li><!-- button 전체 -->
+                        <li class="filter-item"><a href="#">내 순위</a></li><!-- button 내순위 -->
+                    </ul>
+                    <ul class="filter-order fl_right">
+                        <li class="on"><a href="#">내림차순</a></li><!-- button 내림차순 -->
+                        <li><a href="#">오름차순</a></li><!-- button 오름차순 -->
+                    </ul>
+                </div>
+                <style>
+                    .filter_btn:after {content:'';clear:both;display:block;}
+                    .filter-wrapper.fl_left .filter-item {margin-left:0px;}
+                    .filter-item {float:left;display:block;height:45px;margin:0 5px 10px;background:#D6EDF9;box-sizing:border-box;border-radius:13px;}
+                    .filter-item.on {background:#FFFFFF;border:2px solid #000000;}
+                    .filter-item.on a {color:#000000;}
+                    .filter-item a {display:block;min-width:55px;height:100%;padding:15px 15px 13px;font-family:'Cafe24Ssurround', sans-serif;color:#84A8BA;font-size:14px;font-weight:700;line-height:17px;letter-spacing:-0.05em;text-align:center;box-sizing:border-box;white-space:nowrap;}
+                </style>
+                <div class="tb_ranking">
+                    <table>											
+                        <caption>랭킹순위</caption>											
+                        <colgroup>																
+                            <col style="width:25%">											
+                            <col style="width:25%">								
+                            <col style="width:50%">										
+                        </colgroup>
+                        <tbody>
+                            <!-- temp -->
+                            <tr>													
+                                <th scope="row" class="ranking_num rk_first">1등</th><!-- number --><!-- 1등 .rk_first -->			
+                                <td class="ranking_score"><em>2,215</em>점</td><!-- score -->										
+                                <td class="ranking_day"><em>2021.11.25.</em>17:35:27</td><!-- day -->
+                            </tr>
+                            <!-- //temp -->		
+                            <tr>													
+                                <th scope="row" class="ranking_num rk_second">2등</th><!-- 2등 .rk_second -->
+                                <td class="ranking_score"><em>2,215</em>점</td>											
+                                <td class="ranking_day"><em>2021.11.25.</em>17:35:27</td>
+                            </tr>
+                            <tr>													
+                                <th scope="row" class="ranking_num rk_third">3등</th><!-- 3등 .rk_third -->
+                                <td class="ranking_score"><em>2,215</em>점</td>												
+                                <td class="ranking_day"><em>2021.11.25.</em>17:35:27</td>
+                            </tr>
+                            <tr>													
+                                <th scope="row" class="ranking_num">4등</th>
+                                <td class="ranking_score"><em>2,215</em>점</td>
+                                <td class="ranking_day"><em>2021.11.25.</em>17:35:27</td>
+                            </tr>
+                            <tr>													
+                                <th scope="row" class="ranking_num">99등</th>
+                                <td class="ranking_score"><em>2,215</em>점</td>
+                                <td class="ranking_day"><em>2021.11.25.</em>17:35:27</td>
+                            </tr>							
+                        </tbody>										
+                    </table>
+                </div>
+            </div>  
+        </div>
+        <!-- //contents -->
+
+        <!-- footer -->
+        <footer class="ft_fix"> 
+            <ul class="ft_link"> 
+                <li class="link01">
+                    <a href="#"><em>로그인</em></a>
+                </li> 
+                <!-- li class="link01 on">
+                    <a href="#"><em>로그아웃</em></a>
+                </li --> 
+                <li class="link02">
+                    <a href="#"><em>내 순위</em></a>
+                </li> 
+                <li class="link03">
+                    <a href="#"><em>강청 인별</em></a>
+                </li> 
+            </ul> 
+        </footer>
+        <!-- //footer -->
+
+    </div>
+    
+
+</body>
+
+</html>
