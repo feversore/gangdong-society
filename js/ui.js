@@ -35,6 +35,16 @@ $(document).ready(function(){
     $('.filter_item').click(function () {
         $(this).toggleClass('on');
     });  
+
+    $('.filter_item2').click(function () {
+        if ($(this).hasClass('on')) {
+            $('li').removeClass('on');
+        }
+        else {
+            $('li').removeClass('on');
+            $(this).addClass('on');
+        }
+    });  
     $('.filter_order li').click(function () {
         if ($(this).hasClass('active')) {
             $('li').removeClass('active');
@@ -44,7 +54,6 @@ $(document).ready(function(){
             $(this).addClass('active');
         }
     });
-
     //password display
     $('.slt i.ico_pw_display').on('click',function(){
         $('input').toggleClass('active');
