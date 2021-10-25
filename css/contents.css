@@ -326,7 +326,7 @@
 .cont_pp .sns_link > li.sns_phone {background-image: url('../images/apa_ico_phone.png');}
 
 /* point */
-.point {position:absolute; top:50px; right:0; width:130px; height:130px; background-repeat:no-repeat; background-position:50% 50%; background-size:130px; text-indent:-999px; z-index:9999;}
+.point {position:absolute; top:50px; right:0; width:130px; height:130px; background-repeat:no-repeat; background-position:50% 50%; background-size:130px; text-indent:-999px; z-index:9;}
 .point.boy {background-image: url('../images/point_ico_boy.png');}
 .point.girl {background-image: url('../images/point_ico_girl.png');}
 
