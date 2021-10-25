@@ -31,6 +31,10 @@ $(document).ready(function(){
     $('.popup_modal').click(function() {
         $(this).hide();
     });
+    //point
+    $('.point').click(function() {
+        $(this).hide();  
+    });
     
     $('.filter_item').click(function () {
         $(this).toggleClass('on');
