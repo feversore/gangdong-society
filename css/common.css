@@ -25,6 +25,7 @@
 .bgCol_02 {background-color:#FEF9E2;}
 .bgCol_03 {background-color:#F9FDFF;}
 .bgCol_04 {background-color:#E2F4F8;}
+.bgCol_05 {background-color:#FBF5FF;}
 
 /* open home:page */
 .main .head_fix {position:absolute; top:0; left:0; right:0; margin-bottom:20px; padding:10px 10px 0; z-index:1;}
@@ -48,6 +49,7 @@
 	background:url("../images/header_ico.png") no-repeat;
     background-size:100%;
 }
+.head_fix .head_tit .roul_join {position:absolute; top:-4px; right:0; padding:8px; background:#FFFFFF; border:2px solid #FF9CB4; box-sizing:border-box; border-radius:13px; font-family:'Cafe24Ssurround', sans-serif; font-size:17px; line-height:20px; font-weight:700; letter-spacing:-0.05em; color:#FF9CB4;}
 
 .head_fix .head_txt {margin-top:15px; padding:20px; background-color:#FFF57F; border:2px solid rgba(0, 0, 0, 0.1); box-sizing:border-box; border-radius:13px; text-align:left; font-family:'Roboto'; font-style:normal; font-weight:700; font-size:15px; line-height:18px; letter-spacing:-0.05em; color:#432F5A;}
 .head_fix .head_txt .ico_note {position:relative; margin-top:10px; padding:4px 0 3px 25px; font-family:'Roboto'; font-style:normal; font-weight:700; font-size:12px; line-height:14px; letter-spacing:-0.05em; color:#A15366;}
