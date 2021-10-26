@@ -72,6 +72,8 @@
     background:url('../images/note_ico_02.png') no-repeat;
 }
 
+.container {}
+
 /* footer */
 .ft_fix {position:fixed; bottom:0; left:0; right:0; padding:0 10px 10px 10px; z-index:99;}
 .ft_fix::before {
@@ -133,3 +135,24 @@
     margin:0 auto;
 }    
 
+.copyright {display:flex;justify-content:space-between;padding:50px 13px 118px 20px;}
+.copyright .c_logo {color:#b2b2b2;font-size:13px;line-height:18px;letter-spacing:-0.05em;}
+.copyright .c_term {font-size:0;}
+.copyright .c_term span {display:inline-block;padding:0 7px;}
+.copyright .c_term a {color:#000;font-size:13px;line-height:18px;letter-spacing:-0.05em;}
+
+/* PAGING */
+.paging {position:relative;margin:30px 24px 0;text-align:center;}
+.paging .page_bt {position:absolute;top:50%;height:26px;font-size:0;transform:translateY(-50%);}
+.paging .page_bt.prev {left:0;}
+.paging .page_bt.next {right:0;}
+.paging .page_bt a {display:inline-block;width:26px;height:26px;margin:0 5px;background-image:url("../images/bg_page_arr.png");background-repeat:no-repeat;background-size:51px auto;}
+.paging .page_bt .bt_first {background-position:0 0;}
+.paging .page_bt .bt_last {background-position:0 -26px;}
+.paging .page_bt .bt_prev {background-position:-26px 0;}
+.paging .page_bt .bt_next {background-position:-26px -26px;}
+.paging .page_list {overflow:hidden;display:block;font-size:0;text-align:center;}
+.paging .page_list:after {content:'';clear:both;display:block;}
+.paging .page_list .pg {display:inline-block;min-width:22px;margin:0 1px;padding:1.86%;font-family:'Roboto', sans-serif;color:#b2b2b2;font-size:13px;line-height:18px;text-align:center;}
+/*.paging .page_list .pg:first-child {margin-left:0;}*/
+.paging .page_list .pg.active {color:#000;font-weight:bold}
