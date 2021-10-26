@@ -5,12 +5,22 @@
 - 추가된 푸터영역은 메인(오픈준비중), 회원가입, 마이페이지, 로그인은 제외하고 
 페이지내에 적용해두었습니다.(<!-- copyright -->)
 
-2. body 클래스 추가 <!-- 20211026:: .write 추가-->
+2. 룰렛, 포인트 스티커 화면 확인
+\html\roulette.html
+\html\roulette_download.html
+\html\roulette_lack.html
+\html\point.html
+\html\point_popup.html
+- 페이지내에 주석 확인 부탁드립니다. 
+
+3. body 클래스 추가 <!-- 20211026:: .write 추가-->
 \html\share_write_register.html
 \html\visitors_write_register.html
 - 해당 두개의 페이지내에만 적용 요청 드립니다.(header 영역 변경으로 인한 수정)
 
-3. 이미지 2배수 업데이트 하였습니다.
+4. 이미지 2배수 업데이트 하였습니다.
+
+5. 타이틀, 이모저모 디자인 수정예정
 
 *새로 추가된 푸터 영역이 기존의 [로그인/내순위/강청인별] 영역과 분리되어 있는것으로 보여져
 (다른 디자인으로 미루어보아 독립된 영역으로 마크업 해두었습니다)
