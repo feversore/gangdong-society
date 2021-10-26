@@ -132,7 +132,7 @@
 .cont_info .info_list li > a > span {display:block; margin-top:10px; font-family:'Cafe24SsurroundAir'; font-style:normal; font-weight:300; font-size:13px; line-height:18px; text-align:left; color:#000000;}
 
 /* share */
-.cont_share {padding:30px 25px; font-style:normal; color:#000000;}
+.cont_share {padding:30px 25px 0; font-style:normal; color:#000000;}
 .cont_share .share_list {}
 .cont_share .share_list li {margin-top:15px; font-family:'Cafe24Ssurround'; font-weight:bold; font-size:15px; line-height:18px; letter-spacing:-0.05em;}
 .cont_share .share_list li:first-child {margin-top:0;}

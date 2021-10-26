@@ -32,7 +32,7 @@
 .main .head_fix h1 {display:block; width:355px; height:60px; margin:0 auto 20px; z-index:1; background:url('../images/header.png') no-repeat 0 0; background-size:100%; text-indent:-9999px;}
 .main .container {padding-top:90px;} */
 .main .head_fix {position:relative; top:0; left:0; right:0; padding:10px 10px 24px;}
-.main .head_fix h1 {display:block; height:60px; padding:0 42px; background-image: url('../images/header_txt.png'); background-repeat: no-repeat; background-position:50% 50%; background-size:271px 26px; background-color:#FFFFFF; border:2.5px solid #442F5B; box-sizing:border-box; border-radius:13px; text-indent:-9999px; z-index:1;}
+.main .head_fix h1 {display:block; height:60px; padding:0 42px; background-image: url('../images/header_txt.png'); background-repeat: no-repeat; background-position:50% 50%; background-size:271px 24.63px; background-color:#FFFFFF; border:2.5px solid #442F5B; box-sizing:border-box; border-radius:13px; text-indent:-9999px; z-index:1;}
 .main .head_fix::before {content:''; display:block; position:absolute; top:18px; left:18px; width:10px; height:10px; background:#E85382; border:2.5px solid #442F5B; box-sizing:border-box; border-radius:13px;}
 .main .head_fix::after {content:''; display:block; position:absolute; top:18px; right:18px; width:10px; height:10px; background:#E85382; border:2.5px solid #442F5B; box-sizing:border-box; border-radius:13px;}
 .main .head_fix h1::before {content:''; display:block; position:absolute; top:52px; left:18px; width:10px; height:10px; background:#E85382; border:2.5px solid #442F5B; box-sizing:border-box; border-radius:13px;}
