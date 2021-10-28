@@ -1,6 +1,10 @@
 @charset "utf-8";
 @import url('font.css');
 
+.main .home_wrap {display:block; width:100%; height:100%; overflow:visible; }
+.main .home_wrap::before {content:''; position:absolute; top:0; left:0; display:block; width:50%; height:100%; background:linear-gradient(#FEE738 54.6%, #E16A5A 45.4%) no-repeat 0 0;}
+.main .home_wrap::after {content:''; position:absolute; top:0; right:0; display:block; width:50%; height:100%; background:linear-gradient(#FBB347 52.1%, #E16A5A 47.9%) no-repeat 0 0;}
+.main .wrap {position:absolute; display:block; width:100%; height:100%; background: url('../images/home_bg.jpg') no-repeat 50% 0; background-size:auto 100%; z-index:1;}
 .wrap {display:block; width:100%; height:100%; overflow:visible;}
 
 /* common */
@@ -20,6 +24,7 @@
 .fl_right {float:right;}
 
 /* header */
+.bgHome {background-color:#E16A5A;}
 .bgCol_00 {background-color:#000000;}
 .bgCol_01 {background-color:#FAD9C7;}
 .bgCol_02 {background-color:#FEF9E2;}
@@ -31,8 +36,8 @@
 /* .main .head_fix {position:absolute; top:0; left:0; right:0; margin-bottom:20px; padding:10px 10px 0; z-index:1;}
 .main .head_fix h1 {display:block; width:355px; height:60px; margin:0 auto 20px; z-index:1; background:url('../images/header.png') no-repeat 0 0; background-size:100%; text-indent:-9999px;}
 .main .container {padding-top:90px;} */
-.main .head_fix {position:relative; top:0; left:0; right:0; padding:10px 10px 24px;}
-.main .head_fix h1 {display:block; height:60px; padding:0 42px; background-image: url('../images/header_txt.png'); background-repeat: no-repeat; background-position:50% 50%; background-size:271px 24.63px; background-color:#FFFFFF; border:2.5px solid #442F5B; box-sizing:border-box; border-radius:13px; text-indent:-9999px; z-index:1;}
+.main .head_fix {position:relative; top:0; left:0; right:0; padding:10px 10px; z-index:1;}
+.main .head_fix h1 {display:block; height:60px; padding:0 42px; background-image: url('../images/hearder_home.png'); background-repeat: no-repeat; background-position:50% 50%; background-size:280px 41.46px; background-color:#FFFFFF; border:2.5px solid #442F5B; box-sizing:border-box; border-radius:13px; text-indent:-9999px;}
 .main .head_fix::before {content:''; display:block; position:absolute; top:18px; left:18px; width:10px; height:10px; background:#E85382; border:2.5px solid #442F5B; box-sizing:border-box; border-radius:13px;}
 .main .head_fix::after {content:''; display:block; position:absolute; top:18px; right:18px; width:10px; height:10px; background:#E85382; border:2.5px solid #442F5B; box-sizing:border-box; border-radius:13px;}
 .main .head_fix h1::before {content:''; display:block; position:absolute; top:52px; left:18px; width:10px; height:10px; background:#E85382; border:2.5px solid #442F5B; box-sizing:border-box; border-radius:13px;}
@@ -40,7 +45,7 @@
 
 /* sub:page */
 .sub .head_fix {position:relative; top:0; left:0; right:0; padding:10px 10px 0;}
-.sub .head_fix h1 {display:block; height:60px; margin-bottom:25px; padding:0 42px; background-image: url('../images/header_txt.png'); background-repeat: no-repeat; background-position:50% 50%; background-size:271px 26px; background-color:#FFFFFF; border:2.5px solid #442F5B; box-sizing:border-box; border-radius:13px; text-indent:-9999px; z-index:1;}
+.sub .head_fix h1 {display:block; height:60px; margin-bottom:25px; padding:0 42px; background-image: url('../images/hearder_home.png'); background-repeat: no-repeat; background-position:50% 50%; background-size:280px 41.46px; background-color:#FFFFFF; border:2.5px solid #442F5B; box-sizing:border-box; border-radius:13px; text-indent:-9999px; z-index:1;}
 .sub .head_fix::before {content:''; display:block; position:absolute; top:18px; left:18px; width:10px; height:10px; background:#E85382; border:2.5px solid #442F5B; box-sizing:border-box; border-radius:13px;}
 .sub .head_fix::after {content:''; display:block; position:absolute; top:18px; right:18px; width:10px; height:10px; background:#E85382; border:2.5px solid #442F5B; box-sizing:border-box; border-radius:13px;}
 .sub .head_fix h1::before {content:''; display:block; position:absolute; top:52px; left:18px; width:10px; height:10px; background:#E85382; border:2.5px solid #442F5B; box-sizing:border-box; border-radius:13px;}
@@ -83,7 +88,7 @@
 .head_fix .head_txt.ht_type2 .ico_note {color:#585CB1;}
 .head_fix .head_txt.ht_type2 .ico_note::before {background:url('../images/note_ico_02.png') no-repeat; background-size:100% auto;}
 
-.container {}
+
 
 /* footer */
 .ft_fix {position:fixed; bottom:0; left:0; right:0; padding:0 10px 10px 10px; z-index:99;}
