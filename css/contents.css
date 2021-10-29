@@ -1,23 +1,23 @@
 /* motion */
-.motion_111 {position:absolute; top:73.37px; right:153.08px; width:34px; height:33px; background: url('../images/motion_ico_111.png') no-repeat; background-size:100% auto;}
-.motion_101 {position:absolute; top:60.16px; right:132.85px; width:67px; height:69px; background: url('../images/motion_ico_112.png') no-repeat; background-size:100% auto; animation: wheel101 10s linear infinite; transform-origin:50% 50%; z-index:-1;}
+.motion_111 {position:absolute; top:73.37px; right:153.08px; width:34px; height:33px; background: url('../images/motion_ico_111.png') no-repeat 50% 50%; background-size:85% auto;}
+.motion_101 {position:absolute; top:60.16px; right:132.85px; width:67px; height:69px; background: url('../images/motion_ico_112.png') no-repeat 50% 50%; background-size:85% auto; animation: wheel101 10s linear infinite; transform-origin:50% 50%; z-index:-1;}
 @keyframes wheel101 {
     100% {transform: rotate(360deg);}
 }
-.motion_121 {position:absolute; top:75.80px; right:65.90px; width:35px; height:33px; background: url('../images/motion_ico_121.png') no-repeat; background-size:100% auto; z-index:1;}
-.motion_102 {position:absolute; top:56px; right:38.09px; width:84px; height:86px; background: url('../images/motion_ico_122.png') no-repeat; background-size:100% auto; animation: wheel102 10s linear infinite; transform-origin:50% 50%;}
+.motion_121 {position:absolute; top:75.80px; right:65.90px; width:35px; height:33px; background: url('../images/motion_ico_121.png') no-repeat 50% 50%; background-size:85% auto; z-index:1;}
+.motion_102 {position:absolute; top:56px; right:38.09px; width:84px; height:86px; background: url('../images/motion_ico_122.png') no-repeat 50% 50%; background-size:85% auto; animation: wheel102 10s linear infinite; transform-origin:50% 50%;}
 @keyframes wheel102 {
     100% {transform: rotate(360deg);}
 }
 
 /* plan motion */
-.motion_211 {position:absolute; top:75.15px; right:127.89px; width:31px; height:29px; background: url('../images/motion_ico_211.png') no-repeat; background-size:100% auto; z-index:10;}
-.motion_201 {position:absolute; top:58px; right:103.81px; width:73px; height:75px; background: url('../images/motion_ico_212.png') no-repeat; background-size:100% auto; animation: wheel201 10s linear infinite; transform-origin:50% 50%;}
+.motion_211 {position:absolute; top:75.15px; right:127.89px; width:31px; height:29px; background: url('../images/motion_ico_211.png') no-repeat 50% 50%; background-size:85% auto; z-index:10;}
+.motion_201 {position:absolute; top:58px; right:103.81px; width:73px; height:75px; background: url('../images/motion_ico_212.png') no-repeat 50% 50%; background-size:85% auto; animation: wheel201 10s linear infinite; transform-origin:50% 50%;}
 @keyframes wheel201 {
     100% {transform: rotate(360deg);}
 }
-.motion_221 {position:absolute; top:107.37px; right:48.08px; width:33px; height:33px; background: url('../images/motion_ico_221.png') no-repeat; background-size:100% auto; z-index:10;}
-.motion_202 {position:absolute; top:95.44px; right:26.97px; width:69px; height:67px; background: url('../images/motion_ico_222.png') no-repeat; background-size:100% auto; animation: wheel202 15s linear infinite; transform-origin:50% 50%; z-index:-1;}
+.motion_221 {position:absolute; top:107.37px; right:48.08px; width:33px; height:33px; background: url('../images/motion_ico_221.png') no-repeat 50% 50%; background-size:85% auto; z-index:10;}
+.motion_202 {position:absolute; top:95.44px; right:26.97px; width:69px; height:67px; background: url('../images/motion_ico_222.png') no-repeat 50% 50%; background-size:85% auto; animation: wheel202 15s linear infinite; transform-origin:50% 50%; z-index:-1;}
 @keyframes wheel202 {
     100% {transform: rotate(360deg);}
 }
